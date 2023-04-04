@@ -1,6 +1,6 @@
-import clsx from 'clsx'
-import { ButtonProps } from './Button.props'
-import styles from './Button.module.scss'
+import clsx from "clsx";
+import { ButtonProps } from "./Button.props";
+import styles from "./Button.module.scss";
 
 export const Button = ({
   children,
@@ -10,11 +10,11 @@ export const Button = ({
   return (
     <button
       className={clsx(styles.button, className, {
-        [styles.primary]: variant == 'primary',
-        [styles.outlined]: variant == 'outlined',
+        [styles.primary]: variant == "primary",
+        [styles.outlined]: variant == "outlined",
       })}
     >
       {children}
     </button>
-  )
-}
+  );
+};
