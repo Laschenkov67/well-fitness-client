@@ -1,6 +1,6 @@
-import { DetailedHTMLProps, HTMLAttributes } from 'react'
+import { DetailedHTMLProps, HTMLAttributes } from 'react';
 
 export interface BadgeProps
   extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-  type: 'new' | 'percentage' | 'like' | string
+  type: 'new' | 'percentage' | 'like' | string;
 }
