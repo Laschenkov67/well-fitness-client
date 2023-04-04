@@ -1,0 +1,29 @@
+.button {
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 4px;
+
+  width: 147px;
+  height: 42px;
+
+  transition: all ease 0.3s;
+
+  &:hover {
+    color: #fff;
+    background: var(--red-hover);
+    border: none;
+  }
+}
+
+.primary {
+  background: var(--red);
+  color: #fff;
+}
+.outlined {
+  color: var(--red);
+  border: 1px solid var(--red);
+  background: none;
+}
